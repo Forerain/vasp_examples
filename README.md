@@ -1,1 +1,2 @@
 # vasp_examples
+test
