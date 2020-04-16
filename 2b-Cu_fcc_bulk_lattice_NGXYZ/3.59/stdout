@@ -1,0 +1,27 @@
+ running on    4 nodes
+ distr:  one band on    2 nodes,    2 groups
+ vasp.5.2.12 11Nov11 complex                                                    
+  
+ POSCAR found type information on POSCAR  Cu
+ POSCAR found :  1 types and       1 ions
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Cu
+ POSCAR found :  1 types and       1 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...(           1 )
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.200027843131E+02    0.20003E+02   -0.41447E+03  5962   0.100E+03
+DAV:   2    -0.435286997745E+01   -0.24356E+02   -0.23037E+02  5822   0.142E+02
+DAV:   3    -0.458404944248E+01   -0.23118E+00   -0.23100E+00  6438   0.160E+01
+DAV:   4    -0.458430168538E+01   -0.25224E-03   -0.25224E-03  6008   0.514E-01
+DAV:   5    -0.458430196841E+01   -0.28303E-06   -0.28314E-06  5870   0.165E-02    0.697E+00
+DAV:   6    -0.400689935930E+01    0.57740E+00   -0.13924E+01  6316   0.562E+01    0.290E+00
+DAV:   7    -0.372151233789E+01    0.28539E+00   -0.19941E+00  6342   0.214E+01    0.651E-01
+DAV:   8    -0.370884369665E+01    0.12669E-01   -0.42185E-03  6876   0.620E-01    0.251E-01
+DAV:   9    -0.370756003230E+01    0.12837E-02   -0.79906E-03  6408   0.123E+00    0.253E-02
+DAV:  10    -0.370756448138E+01   -0.44491E-05   -0.29735E-05  5882   0.778E-02    0.792E-03
+DAV:  11    -0.370756161400E+01    0.28674E-05   -0.15885E-06  3396   0.204E-02    0.172E-04
+DAV:  12    -0.370756180917E+01   -0.19517E-06   -0.23862E-08  2928   0.157E-03
+   1 F= -.37075618E+01 E0= -.37075564E+01  d E =-.162904E-04

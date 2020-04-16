@@ -1,0 +1,40 @@
+ SYSTEM = Atom                    
+ 
+ Startparameter for this Run:
+   ISTART =  0    #0-new  1-cont  2-samecu
+   NWRITE =  2
+   LWAVE  =  F    #
+   LCHARG =  F    #
+#   LVTOT  = T    #
+#   LORBIT = 11
+#   ICHARG = 11
+
+ Parallelisation
+   NSIM = 4
+   NPAR = 2 
+
+ Spin-polarized 
+   ISPIN  = 2   # 2-spin polarize
+   MAGMOM = 3 
+   
+ Electronic Relaxation 
+   PREC  = Normal  
+   ENCUT =  400.00  #
+   ENAUG = 1200.00  #1000.00 4*ENCUT
+   ISMEAR =   0     # 1,2-metal 0-insulator,semiconductor -5-total energy,DOS
+   SIGMA = 0.001     #0.2 is enough for metal  0.05
+   LREAL = False    # False for small lattice
+   ROPT  = 2E-4  2E-4  2E-4  2E-4  # one number for each species, needed when LREAL= A or O
+
+   ALGO  = Normal   # Normal
+   NELM   =  200
+   NELMIN =    3
+   EDIFF = 1E-06 
+ 
+ Ionic Relaxation
+   NSW    =    0    # 0 for static cal/.
+   NBLOCK =    1 ;   KBLOCK =      5    # inner block; outer block
+   EDIFFG =-0.01  # -0.03  
+   IBRION =    1    # ionic relax: 0-MD 1-quasi-New 2-CG
+   POTIM  =  0.5    # if IBRION=0, user must supply this value; IBRION=1,2,3, POTIM=0,5
+ 
